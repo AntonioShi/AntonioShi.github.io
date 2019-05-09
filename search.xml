@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>律法的进步</title>
+      <link href="/2019/05/09/%E5%BE%8B%E6%B3%95%E7%9A%84%E8%BF%9B%E6%AD%A5/"/>
+      <url>/2019/05/09/%E5%BE%8B%E6%B3%95%E7%9A%84%E8%BF%9B%E6%AD%A5/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>五一静思</title>
+      <link href="/2019/05/04/%E9%9D%99%E6%80%9D/"/>
+      <url>/2019/05/04/%E9%9D%99%E6%80%9D/</url>
+      
+        <content type="html"><![CDATA[<p>劳动节的假期，从无比期待着，期待着的到来，到现在五四青年节，已经过去四天了。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 静思 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>特殊矩阵的相关性质</title>
+      <link href="/2019/04/24/%E7%9F%A9%E9%98%B5%E7%9A%84TR%E8%BF%B9%E7%9A%84%E7%9B%B8%E5%85%B3%E6%80%A7%E8%B4%A8/"/>
+      <url>/2019/04/24/%E7%9F%A9%E9%98%B5%E7%9A%84TR%E8%BF%B9%E7%9A%84%E7%9B%B8%E5%85%B3%E6%80%A7%E8%B4%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="矩阵的迹tr"><a href="#矩阵的迹tr" class="headerlink" title="矩阵的迹tr:"></a>矩阵的迹tr:</h3><p>在线性代数中，n乘n方阵“A”的迹，是指“A”的主对角线各元素的总和（从左上方至右下方的对角线），例如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">其中 Aij 代表在 i 行 j 栏中的数值。同样的，元素的迹是其特征值的总和，使其不变量根据选择的基本准则而定。</span><br></pre></td></tr></table></figure><h3 id="性质"><a href="#性质" class="headerlink" title="性质:"></a>性质:</h3><p>设有N阶矩阵A，那么矩阵A的迹（用tr(A)表示）就等于A的特征值的总和，也即矩阵A的主对角线元素的总和。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1.迹是所有对角元的和</span><br><span class="line">2.迹是所有特征值的和</span><br><span class="line">3.某些时候也利用tr(AB)=tr(BA)来求迹</span><br><span class="line">4.trace（mA+nB）=m trace（A）+n trace（B）</span><br></pre></td></tr></table></figure></p><h3 id="实对称矩阵"><a href="#实对称矩阵" class="headerlink" title="实对称矩阵"></a>实对称矩阵</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">如果有n阶矩阵A，其矩阵的元素都为实数，且矩阵A的转置等于其本身（aij=aji）(i,j为元素的脚标），则称A为实对称矩阵。</span><br><span class="line"></span><br><span class="line">主要性质：</span><br><span class="line">1.实对称矩阵A的不同特征值对应的特征向量是正交的。</span><br><span class="line">2.实对称矩阵A的特征值都是实数，特征向量都是实向量。</span><br><span class="line">3.n阶实对称矩阵A必可对角化，且相似对角阵上的元素即为矩阵本身特征值。</span><br><span class="line">4.若λ0具有k重特征值　必有k个线性无关的特征向量，或者说必有秩r(λ0E-A)=n-k，其中E为单位矩阵。</span><br></pre></td></tr></table></figure><h3 id="矩阵的秩的性质："><a href="#矩阵的秩的性质：" class="headerlink" title="矩阵的秩的性质："></a>矩阵的秩的性质：</h3><h4 id="设A是sn矩阵，B为ns矩阵，且AB-0，则r-A-r-B-lt-n"><a href="#设A是sn矩阵，B为ns矩阵，且AB-0，则r-A-r-B-lt-n" class="headerlink" title="设A是sn矩阵，B为ns矩阵，且AB=0，则r(A) + r(B) &lt;= n"></a>设A是s<em>n矩阵，B为n</em>s矩阵，且AB=0，则r(A) + r(B) &lt;= n</h4><hr><p>证: 将B按列分块为 B=(b1,…,bs)<br>因为 AB=0<br>所以 A(b1,…,bs) = (Ab1,…,Abs)=0<br>所以 Abi=0, i=1,…,s<br>即 B 的列向量都是齐次线性方程组 AX=0 的解向量<br>所以B的列向量组可由 AX=0 的基础解系线性表示<br>而 AX=0 的基础解系含 n-r(A) = n-r 个向量<br>所以 r(B) &lt;= n-r.</p><p>所以r(A)+r(B)&lt;=n</p><hr><p>作者：bidianzhang<br>来源：CSDN<br>原文：<a href="https://blog.csdn.net/zhangkongzhongyun/article/details/38487915" target="_blank" rel="noopener">https://blog.csdn.net/zhangkongzhongyun/article/details/38487915</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>论“名字”</title>
+      <link href="/2019/04/22/%E8%AE%BA%E2%80%9C%E5%90%8D%E5%AD%97%E2%80%9D/"/>
+      <url>/2019/04/22/%E8%AE%BA%E2%80%9C%E5%90%8D%E5%AD%97%E2%80%9D/</url>
+      
+        <content type="html"><![CDATA[<p>最近听到很多关于“名字”的一些故事。<br>很多古籍、小说中都有记载过类似的事情：很多精怪，在我们不知道对方的称号或者名字的时候，对方就会显得特别厉害。然而我们一旦知道了对方的名字，他们就会秒变弱鸡。</p><p>类似的故事还有很多。在名著西游记中，孙悟空在面对金角银角大王的时候，轮番换名字，<code>孙行者、行者孙、者行孙</code>，但是无论他换什么名字，只要在对方喊出他的名字，他答应之后，都会被吸入葫芦之中。在<code>夏目友人帐</code>之中，名字的重要性，更是凸显无疑。</p><p>由此引起了我对“名字”的关注。之前我是不怎么关注的，甚至还给自己起过很多奇奇怪怪的网名。比如：<code>星尘、尘怨、安东尼奥、半夜凉殇心碎</code>（中二时期的耻辱呀）。你们也可以在评论区写下自己曾用过的名字呀。</p><p>往事不提，重点分析问题。<br>由此，可以引起对名字意义的讨论。<br>但是由于个人水平的限制，也只能提出这样的有意思的话题，供大家讨论，欣赏。</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=33337258&auto=1&height=66"></iframe>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+            <tag> 随思 </tag>
+            
+            <tag> 问题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基于zing-gallery的相册功能</title>
+      <link href="/2019/04/20/%E5%9F%BA%E4%BA%8Ezing-gallery%E7%9A%84%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD/"/>
+      <url>/2019/04/20/%E5%9F%BA%E4%BA%8Ezing-gallery%E7%9A%84%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD/</url>
+      
+        <content type="html"><![CDATA[<h3 id="起源"><a href="#起源" class="headerlink" title="起源"></a>起源</h3><p>这个问题几乎是我想要放弃这条道路，我查找了很多都无果。<br>亏得早上意外看到一条神一样的命令，于是再次拾起来，也顺便做一个指导，希望能够帮到更多的人。</p><h3 id="1、clone-zing-gallery到本地，修改远程仓库地址为自己的服务器上gallery仓库地址，push代码"><a href="#1、clone-zing-gallery到本地，修改远程仓库地址为自己的服务器上gallery仓库地址，push代码" class="headerlink" title="1、clone zing-gallery到本地，修改远程仓库地址为自己的服务器上gallery仓库地址，push代码"></a>1、clone zing-gallery到本地，修改远程仓库地址为自己的服务器上gallery仓库地址，push代码</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">1. # git clone https://github.com/litten/zing-gallery.git</span><br><span class="line">2. # git remote rm origin</span><br><span class="line">3. # git remote add origin git@xx.xx.xx.xx:repo/gallery.git # 修改远程仓库地址为自己服务器上创建的git仓库</span><br><span class="line">4. # git remote -v # 查看远程仓库地址</span><br><span class="line">5. # git add .</span><br><span class="line">6. # git commit</span><br><span class="line">7. # git push</span><br></pre></td></tr></table></figure><h3 id="2、在linux上安装npm依赖"><a href="#2、在linux上安装npm依赖" class="headerlink" title="2、在linux上安装npm依赖"></a>2、在linux上安装npm依赖</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. cd到zing-gallery目录</span><br><span class="line">2. 安装依赖: npm install</span><br><span class="line">3. 开启node服务: npm run start</span><br></pre></td></tr></table></figure><h3 id="3-常见到的错误"><a href="#3-常见到的错误" class="headerlink" title="3.常见到的错误"></a>3.常见到的错误</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install 和npm run start的时候经常报错，整理了这个过程中遇到的一些异常处理。</span><br></pre></td></tr></table></figure><h4 id="端口被占用"><a href="#端口被占用" class="headerlink" title="端口被占用"></a>端口被占用</h4><h4 id="images库下载失败"><a href="#images库下载失败" class="headerlink" title="images库下载失败"></a>images库下载失败</h4><h4 id="libc-so-6-version-GLIBC-2-14-not-found"><a href="#libc-so-6-version-GLIBC-2-14-not-found" class="headerlink" title="libc.so.6: version GLIBC_2.14 not found"></a>libc.so.6: version GLIBC_2.14 not found</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line">1.查看系统版本和glibc库版本</span><br><span class="line"># cat /etc/redhat-release</span><br><span class="line">CentOS release 6.9 (Final)</span><br><span class="line"></span><br><span class="line">#  strings /lib64/libc.so.6 |grep GLIBC_</span><br><span class="line">GLIBC_2.2.5</span><br><span class="line">GLIBC_2.2.6</span><br><span class="line">GLIBC_2.3</span><br><span class="line">GLIBC_2.3.2</span><br><span class="line">GLIBC_2.3.3</span><br><span class="line">GLIBC_2.3.4</span><br><span class="line">GLIBC_2.4</span><br><span class="line">GLIBC_2.5</span><br><span class="line">GLIBC_2.6</span><br><span class="line">GLIBC_2.7</span><br><span class="line">GLIBC_2.8</span><br><span class="line">GLIBC_2.9</span><br><span class="line">GLIBC_2.10</span><br><span class="line">GLIBC_2.11</span><br><span class="line">GLIBC_2.12</span><br><span class="line">GLIBC_PRIVATE</span><br><span class="line"></span><br><span class="line">发现CentOS6.9最高支持glibc的版本为2.12。</span><br><span class="line"></span><br><span class="line">2.升级glibc</span><br><span class="line"># wget http://ftp.gnu.org/gnu/glibc/glibc-2.14.tar.gz</span><br><span class="line"># wget http://ftp.gnu.org/gnu/glibc/glibc-ports-2.14.tar.gz</span><br><span class="line"># tar -xvf  glibc-2.14.tar.gz</span><br><span class="line"># tar -xvf  glibc-ports-2.14.tar.gz</span><br><span class="line"># mv glibc-ports-2.14 glibc-2.14/ports</span><br><span class="line"># mkdir glibc-build-2.14</span><br><span class="line"># cd glibc-build-2.14/</span><br><span class="line"># ../glibc-2.14/configure  --prefix=/usr --disable-profile --enable-add-ons --with-headers=/usr/include --with-binutils=/usr/bin</span><br><span class="line"># make</span><br><span class="line"># make install</span><br><span class="line"></span><br><span class="line">3.安装完成，查看/lib64/libc.so.6软连接</span><br><span class="line"># ll /lib64/libc.so.6</span><br><span class="line">/lib64/libc.so.6 -&gt; /lib64/libc-2.14.so</span><br><span class="line"></span><br><span class="line">4.查看glibc支持的版本</span><br><span class="line"># strings /lib64/libc.so.6 |grep GLIBC_</span><br><span class="line">GLIBC_2.2.5</span><br><span class="line">GLIBC_2.2.6</span><br><span class="line">GLIBC_2.3</span><br><span class="line">GLIBC_2.3.2</span><br><span class="line">GLIBC_2.3.3</span><br><span class="line">GLIBC_2.3.4</span><br><span class="line">GLIBC_2.4</span><br><span class="line">GLIBC_2.5</span><br><span class="line">GLIBC_2.6</span><br><span class="line">GLIBC_2.7</span><br><span class="line">GLIBC_2.8</span><br><span class="line">GLIBC_2.9</span><br><span class="line">GLIBC_2.10</span><br><span class="line">GLIBC_2.11</span><br><span class="line">GLIBC_2.12</span><br><span class="line">GLIBC_2.13</span><br><span class="line">GLIBC_2.14</span><br><span class="line">GLIBC_PRIVAT</span><br></pre></td></tr></table></figure><h4 id="提示版本太久"><a href="#提示版本太久" class="headerlink" title="提示版本太久"></a>提示版本太久</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Ubuntu环境先安装gcc-multilib</span><br><span class="line">sudo apt-get install -y gcc-multilib</span><br><span class="line">再安装依赖npm install</span><br><span class="line">最后启动服务吧: npm run start</span><br></pre></td></tr></table></figure><h4 id="初步访问"><a href="#初步访问" class="headerlink" title="初步访问"></a>初步访问</h4><p>在浏览器中通过域名:3000访问相册页面<br><img src="https://upload-images.jianshu.io/upload_images/9222286-e1fd94a69b645513.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><p><a href="http://ruidada.info/2017/11/22/VPS_02_03/" target="_blank" rel="noopener">http://ruidada.info/2017/11/22/VPS_02_03/</a></p><p><a href="https://github.com/litten/zing-gallery/issues/16" target="_blank" rel="noopener">https://github.com/litten/zing-gallery/issues/16</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 相册 </tag>
+            
+            <tag> zing-gallery </tag>
+            
+            <tag> ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>windows文件照片上传到linux服务器</title>
+      <link href="/2019/04/19/windows%E6%96%87%E4%BB%B6%E7%85%A7%E7%89%87%E4%B8%8A%E4%BC%A0%E5%88%B0linux%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <url>/2019/04/19/windows%E6%96%87%E4%BB%B6%E7%85%A7%E7%89%87%E4%B8%8A%E4%BC%A0%E5%88%B0linux%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<ol><li>在windows上访问linux服务器，首先需要一个远程软件。我使用的是xshell，还不错。<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh username@域名</span><br></pre></td></tr></table></figure></li></ol><p><img src="https://upload-images.jianshu.io/upload_images/9222286-b887a29bdcffe184.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>登陆。我的服务器是ubuntu16.04.不过接下来的操作，我也会写出centos的命令。</p><ol start="2"><li>检查是否安装sz和rz<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">rpm -qa |grep sz 检查sz</span><br><span class="line">rpm -qa |grep rz 检查rz</span><br></pre></td></tr></table></figure></li></ol><p><img src="https://upload-images.jianshu.io/upload_images/9222286-eec85f1c84f2f0ee.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>说明没有安装</p><ol start="3"><li>如果没有安装，则安装如下：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ubuntu: apt install sz</span><br><span class="line">centos: yum install sz</span><br></pre></td></tr></table></figure></li></ol><p><img src="https://upload-images.jianshu.io/upload_images/9222286-9f5d9f8e08333524.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"><br>说明安装失败，因为包的缘故</p><ol start="4"><li>安装时如果出现说没有package的这一类的问题，则进行如下命令：</li></ol><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt search sz</span><br></pre></td></tr></table></figure><p><img src="https://upload-images.jianshu.io/upload_images/9222286-377d77ff1353eb04.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p><p>全网找资源</p><ol start="5"><li>下载<br><img src="https://upload-images.jianshu.io/upload_images/9222286-f4ed743684704f46.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></li></ol><p>可以直接下载，你们也可以使用和我一样的命令。</p><ol start="6"><li>成功演示<br><img src="https://upload-images.jianshu.io/upload_images/9222286-c62d156768a7abe9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></li></ol><p>上传完成。</p><ol start="7"><li>目前我了解到的，似乎只可以上传文件，不可以上传文件夹。不过问题不大，3条命令搞定：<ul><li>mkdir 文件夹的名字text</li><li>cd  text</li><li>rz</li></ul></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux服务器 </tag>
+            
+            <tag> 上传照片 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>胭脂扣摘录</title>
+      <link href="/2019/04/19/%E8%83%AD%E8%84%82%E6%89%A3%E6%91%98%E5%BD%95/"/>
+      <url>/2019/04/19/%E8%83%AD%E8%84%82%E6%89%A3%E6%91%98%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>这便是人生：即便使出浑身解数，结果也由天定。有些人还未下台，已经累垮了；有些人巴望闭幕，无端拥有过分的余地。</p></li><li><p>这便是爱情：大概一千万人之中，才有一双梁祝，才可以化蝶。其他的只化为蛾、蟑螂、蚊蚋、苍蝇、金龟子……就是化不成蝶。并无想象中之美丽。</p></li></ol><a id="more"></a><ol start="3"><li><p>他们回家了，十分满足。<br>孩子鲜蹦活跳，大人心安理得。他们都把精神心血花去打扮孩子，因而忽略自己之仪容气质，不必再致力于吸引、猜疑。完全脚踏实地。渐渐各自拥有一个肚腩。<br>——爱情有好多种。这不是最好的一种，但，这是毫无疑问的一种。</p></li><li><p>我肯定他们白头偕老，但不保证永结同心——人人都是如此啦。由绚烂归于平淡，或由平淡走向更平淡，都是如此，不见得有什么不好。中间更不牵涉到谋杀。</p></li></ol><p><img src="https://upload-images.jianshu.io/upload_images/9222286-1bc2146cb41f9a5a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="伞1.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 胭脂扣 </tag>
+            
+            <tag> 随思 </tag>
+            
+            <tag> 摘录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>微信公众号好文章链接</title>
+      <link href="/2019/04/19/%E5%A5%BD%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5/"/>
+      <url>/2019/04/19/%E5%A5%BD%E6%96%87%E7%AB%A0%E9%93%BE%E6%8E%A5/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://mp.weixin.qq.com/s/nCJo9DUwF-Iw-34WHfVGKg" target="_blank" rel="noopener">17岁少年跳桥自杀：如果有来生，妈妈请你别再骂我了</a><br>[作者：桌子先生]</p><a id="more"></a><p><a href="https://mp.weixin.qq.com/s/BpJd-8yJ34BsGgPlMgoQFA" target="_blank" rel="noopener">90后的空间也太太太太“羞耻”了吧！！</a><br>[作者：青春东莞]</p><p><a href="https://mp.weixin.qq.com/s/UzSyrhe0Vck7ItN-XU6JEg" target="_blank" rel="noopener">所谓打破信息不对称，其实是一种幻觉</a><br>[作者：caoz的梦呓]</p><p><a href="https://mp.weixin.qq.com/s/i3gFLtcMiFDlEufvZjORbw" target="_blank" rel="noopener">不到20行代码，用Python做一个智能聊天机器人</a><br>[作者：Python爱好者社区]</p><p><a href="https://mp.weixin.qq.com/s/aOUd3eJgAJCWo90HOTJjZQ" target="_blank" rel="noopener">和儿子一起考上研究生！来看49岁交大宿管阿姨的开挂之路了</a><br>[作者：上海交通大学]</p><p><img src="https://upload-images.jianshu.io/upload_images/9222286-ac2c42e32c7009af.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="伞3.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 文章 </tag>
+            
+            <tag> 微信公众号 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>这个世界上,没有谁是干净的</title>
+      <link href="/2019/04/18/%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E4%B8%8A-%E6%B2%A1%E6%9C%89%E8%B0%81%E6%98%AF%E5%B9%B2%E5%87%80%E7%9A%84/"/>
+      <url>/2019/04/18/%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E4%B8%8A-%E6%B2%A1%E6%9C%89%E8%B0%81%E6%98%AF%E5%B9%B2%E5%87%80%E7%9A%84/</url>
+      
+        <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=409654891&auto=1&height=66"></iframe><p><code>这个世界上，没有谁是干净的</code>，这句话是我在听鬼故事的时候，听到的。当听到这句话的时候，我是挺惊讶的。<br>故事里面，女主最后和男主告白，说自己杀了人，已经不干净了，这时候男主说出了这样一句话：这个世界上，没有谁是干净的。</p><p>其实一开始觉得有点诡异，这不是一部鬼故事吗？怎么最后变成了甜蜜告白加完美结局呢？WMF？好吧，不追究他是什么了，但是最后这句话确实震撼到我了，因为我曾做过类似的事情。怎么说呢，虽然我当时没有说出这样酷炫潇洒的话，但却做出了同样的决定。</p><p>这个世界上，没有谁是干净的。那么就是说这个世界上，每个人都或多或少带有一些罪孽。</p><p>那就是说，那么帅气阳光，风度翩翩的男子也会有丑陋不堪的时候，那些看起来就香喷喷的花季少女，知性小姐姐也曾在不为人知的时候做过黑暗的事情。我没有见证过这样的事情发生，所有不能担保这句话是否过于绝对，是否有一棒子打死的嫌疑。但是，如果改成大部分人的话，我想应该是没有问题的吧。</p><p>个人粗鄙之见，欢迎各位参与讨论。</p><p><img src="https://upload-images.jianshu.io/upload_images/9222286-bed1a01e496c8be1.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="百合1.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 随思 </tag>
+            
+            <tag> 讨论 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo 部署遇到的问题</title>
+      <link href="/2019/04/17/hexo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+      <url>/2019/04/17/hexo-%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+      
+        <content type="html"><![CDATA[<h3 id="Hexo文件目录"><a href="#Hexo文件目录" class="headerlink" title="Hexo文件目录:"></a>Hexo文件目录:</h3><ul><li>_config.yml 主题配置文件</li><li>languages 国际化的语言包</li><li>layout 主题布局，即页面结构等</li><li>scripts 一些 Hexo 插件脚本</li><li>source 资源文件夹，里面的文件名以 _ 开头外的所有文件都会被当作网站的静态资源</li></ul><h3 id="换源"><a href="#换源" class="headerlink" title="换源:"></a>换源:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo:"></a>安装hexo:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure><h3 id="下载hexo服务器，用于运行hexo命令"><a href="#下载hexo服务器，用于运行hexo命令" class="headerlink" title="下载hexo服务器，用于运行hexo命令:"></a>下载hexo服务器，用于运行hexo命令:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-server --save</span><br></pre></td></tr></table></figure><h3 id="保存hexo配置"><a href="#保存hexo配置" class="headerlink" title="保存hexo配置:"></a>保存hexo配置:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo --save</span><br></pre></td></tr></table></figure><h3 id="生成静态文件并上传到github仓库"><a href="#生成静态文件并上传到github仓库" class="headerlink" title="生成静态文件并上传到github仓库:"></a>生成静态文件并上传到github仓库:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d #等于一次性执行了，清空、刷新、部署三个命令</span><br></pre></td></tr></table></figure><h3 id="当遇到从github上clone下来的hexo无法正常运行hexo命令的时候的解决方法"><a href="#当遇到从github上clone下来的hexo无法正常运行hexo命令的时候的解决方法" class="headerlink" title="当遇到从github上clone下来的hexo无法正常运行hexo命令的时候的解决方法:"></a>当遇到从github上clone下来的hexo无法正常运行hexo命令的时候的解决方法:</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">rm -rf node_modules/ &amp;&amp; cnpm install</span><br><span class="line">1. 删除缓存内容</span><br><span class="line">2. hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br><span class="line">3. 这条命令基本可以解决大部分问题</span><br></pre></td></tr></table></figure><h3 id="如果"><a href="#如果" class="headerlink" title="如果"></a>如果<figure class="highlight plain"><figcaption><span>d```不能很好工作的话，那么可尝试</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">```</span><br><span class="line">cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></h3><h3 id="Hexo常用的几个命令："><a href="#Hexo常用的几个命令：" class="headerlink" title="Hexo常用的几个命令："></a>Hexo常用的几个命令：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .   ,</span><br><span class="line">git commit -m … ,</span><br><span class="line">git push origin hexo　将内容保存至github中,然后才用 hexo g -d 部署博客</span><br></pre></td></tr></table></figure><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate #(hexo g)</span><br><span class="line">生成静态文件，会在当前目录下生成一个新的叫做public的文件夹  </span><br><span class="line"></span><br><span class="line">$ hexo server #(hexo s)</span><br><span class="line">启动本地web服务，用于博客的预览</span><br><span class="line"></span><br><span class="line">$ hexo deploy #(hexo d)</span><br><span class="line">部署播客到远端（比如github, heroku等平台）</span><br></pre></td></tr></table></figure><h3 id="另外还有其他几个常用命令："><a href="#另外还有其他几个常用命令：" class="headerlink" title="另外还有其他几个常用命令："></a>另外还有其他几个常用命令：</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new &quot;postName&quot; #新建文章</span><br><span class="line">$ hexo new page &quot;pageName&quot; #新建页面</span><br><span class="line">$ hexo new draft &quot;postName&quot; #新建草稿</span><br><span class="line">$ hexo publish &quot;postName&quot; #发布草稿</span><br></pre></td></tr></table></figure><h3 id="常用简写"><a href="#常用简写" class="headerlink" title="常用简写"></a>常用简写</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ hexo n == hexo new</span><br><span class="line">$ hexo g == hexo generate</span><br><span class="line">$ hexo s == hexo server</span><br><span class="line">$ hexo d == hexo deploy</span><br></pre></td></tr></table></figure><h3 id="常用组合"><a href="#常用组合" class="headerlink" title="常用组合"></a>常用组合</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g #生成部署</span><br><span class="line">$ hexo s -g #生成预览</span><br></pre></td></tr></table></figure><p><img src="https://upload-images.jianshu.io/upload_images/9222286-e6bf2515ec7029bb.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="白雪.jpg"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 解决方法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试结果的分析</title>
+      <link href="/2019/03/19/%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C%E7%9A%84%E5%88%86%E6%9E%90/"/>
+      <url>/2019/03/19/%E6%B5%8B%E8%AF%95%E7%BB%93%E6%9E%9C%E7%9A%84%E5%88%86%E6%9E%90/</url>
+      
+        <content type="html"><![CDATA[<h3 id="今天的话主要内容是纠正了下测试的数学错题。"><a href="#今天的话主要内容是纠正了下测试的数学错题。" class="headerlink" title="今天的话主要内容是纠正了下测试的数学错题。"></a>今天的话主要内容是纠正了下测试的数学错题。</h3><p>其实在纠正的过程还是挺有收获的。让我逐渐明白题目的思维。这么说不知道可不可以，说“题目的思维”。<br>因为每个题目真的考察的内容差之毫厘，错之千里。一旦题目的意思理解有误，基本就over了。</p><p>我对待错题的方法呢，也是很重视的。先是看视频做一遍，然后自己在草稿上做一遍，确定无误了，才写在我的小本本上面。</p><p>本来还想趁着有时间看几个英语测试的阅读视频，可是今天实在太累了。</p><p>那么也不能说今天英语啥也没干，至少我早上8点到10点都在背单词，这些单词有的是考研真题阅读里面，我摘抄的，还有的就是陈正康老师的后本本了。</p><h3 id="每日轻松一刻"><a href="#每日轻松一刻" class="headerlink" title="每日轻松一刻"></a>每日轻松一刻</h3><p>最近经Niracler的推荐，我有空的时候就会在WechatReading上看看《洛丽塔》这本书。</p><p>我看的也不多，到目前为止，我的旧思想就开始启动了防御模式。因为书中哼哼子（因为他的姓和名都是亨开头的，所以简称吧，但是再经过我的修改，就叫他哼哼子好了）对于萝莉（国外一些法律针对少女的年龄是7-14左右）的近乎变态的狂热实在让传统的小花朵无法接受，甚至也可以说是“MD，不能忍了”。</p><p>只是一个小女孩从他傍边路过而已，他就能自己YY很久（以天为单位计算）。而且书中有关色情的隐晦表达实在是太多了。着实让我涨了见识。。。但是到这里为止，我们并不能称呼哼哼子为禽兽。<br>因为他自己一开始也是深受这种奇怪想法和特殊癖好的折磨。毕竟一开始他也是一个正常的小男孩。</p><p>文中一开始也不止一次提及哼哼子内心的道德愧疚。虽然他自己一个人在yy，但没有付出认为行动。</p><p>从这一点，让我联想到很多类似的事情。<br>比如说我吧，我以前的想法呢，就是自己可以不是一个好人，可以污一点，但是呢，千万不可以带坏别人，特别是纯净的人，如果那样的我，我的愧疚感就足以让我死上千百次了。</p><p>再比如说，少部分男性可能有某方面的男风之好。但是呢，他只是自己想想而已，毕竟生活在这个舆论为王的时代，舆论就可以杀死无数反叛的人。</p><p>说道这里，我就不得不为造物者对人类大脑和思想分隔创造的奇妙性。人类可以在自己的大脑中任意想象，无论是否正义，是否邪恶。而且关键是，别人都不知道你是怎么样的，如果你没有付出实际行动的话。这一点，三体人就比我们差很多了。他们的思想是透明的，全民公开的。</p><p>所以，小结论呢就是： 我也不知道，欢迎有想法的朋友留言。嘻嘻。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 考研课程 </tag>
+            
+            <tag> 小说感想 </tag>
+            
+            <tag> 今日所为 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>对于2019下学期考研辅导班入学测试的总结</title>
+      <link href="/2019/03/17/%E5%AF%B9%E4%BA%8E2019%E4%B8%8B%E5%AD%A6%E6%9C%9F%E8%80%83%E7%A0%94%E8%BE%85%E5%AF%BC%E7%8F%AD%E5%85%A5%E5%AD%A6%E6%B5%8B%E8%AF%95%E7%9A%84%E6%80%BB%E7%BB%93/"/>
+      <url>/2019/03/17/%E5%AF%B9%E4%BA%8E2019%E4%B8%8B%E5%AD%A6%E6%9C%9F%E8%80%83%E7%A0%94%E8%BE%85%E5%AF%BC%E7%8F%AD%E5%85%A5%E5%AD%A6%E6%B5%8B%E8%AF%95%E7%9A%84%E6%80%BB%E7%BB%93/</url>
+      
+        <content type="html"><![CDATA[<p>开学后的测试主要是对寒假的复习成果的测试.<br>这次考试主要是高等数学和英语的阅读</p><h3 id="对于高等数学的分析"><a href="#对于高等数学的分析" class="headerlink" title="对于高等数学的分析"></a>对于高等数学的分析</h3><p>本来以为寒假的一次高数的4天高数上的集训,再加上开学那么基本每天都疯狂复习高数的话,这次考试应该会有所进步.但是,发现平时做的题目特别少,而且,一遇到不会的稍微思考一下下就想看答案,其实也还是心境浮躁的表现.</p><p>后来经过对试卷错题的分析和解题过程的思考,发现很多都是对基本功的深层次考察,不过想想这应该也符合考研数学的要求.就是对基础知识的深层次考察.</p><p>这次考试涉及到了高数上下册的主要内容,而且还十分的综合,一时间不好找到解题的思路.积分中值定理的巧妙考察,以至于让我看到题目都没有意识到题目考察的内容是它,甚至还错以为是考察洛必达定理,结果很明显得到了一个自己都不太相信的结果.</p><p>考试前几天我还在看微分方程视频,但是考到了,我TM居然没有意识到这道题考察的居然是微分方程.因为题目给出的环境让我以为是考察线性几何的内容,[求一条动线的长度],结果发现要想得到这个未知的函数f(x),要用到微分方程的公式可以一步到位得到f(x).得到f(x)之后只是第一步,因为我们不能得到未知参数C的具体值,之后需要用旋转体体积的公式,再加上求导取极值的方式,得到我们的参数C,这才算解题结束.</p><h6 id="总结一下-每一道题都需要综合多个板块知识的运用"><a href="#总结一下-每一道题都需要综合多个板块知识的运用" class="headerlink" title="总结一下,每一道题都需要综合多个板块知识的运用."></a>总结一下,每一道题都需要综合多个板块知识的运用.</h6><h3 id="对于考研英语阅读的分析"><a href="#对于考研英语阅读的分析" class="headerlink" title="对于考研英语阅读的分析"></a>对于考研英语阅读的分析</h3><p>因为平时有做一些超精读的阅读和翻译,所以这次英语的阅读还不至于乱了阵脚.可是我发现了时间的不够用,不,是十分的不够用.</p><p>在这次上课之前我做阅读都是想着争取尽可能的读懂文章,这样才可以作出最正确的选项.</p><p>但是TMD,我发现这种做法在考场简直就是智障行为!!!</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">A: 我的目的是什么?</span><br><span class="line">B: 得分</span><br><span class="line">A: 得分就一定要全文精读吗?</span><br><span class="line">B: fuck???</span><br><span class="line"></span><br><span class="line">A: 是的,你这个小智障,你要学会做题,而不是学会读文章,懂?</span><br><span class="line"></span><br><span class="line">説教: 我的英语老师(一个地中海大叔)说,在他当前考研英语的时候,</span><br><span class="line">40左右就完成了考研的4篇阅读,狗日的,还全对,最要命的是,他丫的,</span><br><span class="line">出了考场就不记得考研阅读的内容啦.这尼玛让考研阅读的面子往哪放!!!</span><br></pre></td></tr></table></figure><blockquote><p>所以,你要谨记,阅读得分是有技巧的</p></blockquote><p>对于另一个板块就是翻译: 汉译英,英译汉</p><p>翻译保证正确即可,不必要为了显示你的高级语法或者高级句式,而给批卷老师抓到扣分的小辫子.</p><p>这个在平时阅读的时候,同时加以翻译,就可以啦.但是做阅读的时候,要记下一些高级句子,句型,单词.</p><blockquote><p>今日,朕乏了,就分享到这里吧.</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 考研课程 </tag>
+            
+            <tag> 线性代数 </tag>
+            
+            <tag> 英语阅读 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>初次见面,请多关照</title>
+      <link href="/2019/03/14/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2-%E8%AF%B7%E5%A4%9A%E5%85%B3%E7%85%A7/"/>
+      <url>/2019/03/14/%E5%88%9D%E6%AC%A1%E8%A7%81%E9%9D%A2-%E8%AF%B7%E5%A4%9A%E5%85%B3%E7%85%A7/</url>
+      
+        <content type="html"><![CDATA[<p>非常荣幸,在同学nircler的精心帮助下,我得以在有生之年完成自己的一个blog.说实话,本来我很早之前就想要自己用django搭一个的,但是过程繁琐,而且也一直没有找到合适的符合我气质和性格的模板,所有这个计划就一直搁浅啦.不过,幸得友助,广纳所言.</p><a id="more"></a><p>第一次写自己的博客,还真是有点小激动呢,就像小媳妇儿要见公娘一样,担心我不足以驾驭.虽然我肯定会努力的,但还是要放低姿态,好好表现才可以呢.</p><p>初次见面,请多关照</p><p>晚安,祝你在梦中有星尘大海相伴.</p><p><img src="https://upload-images.jianshu.io/upload_images/9222286-b1d6f1d065aa49f0.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="叶子.jpg"></p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=409654891&auto=1&height=66"></iframe>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+            <tag> Hello World </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
