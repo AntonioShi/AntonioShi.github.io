@@ -63,11 +63,11 @@
       
         <tags>
             
-            <tag> 文章 </tag>
-            
             <tag> 随思 </tag>
             
             <tag> 问题 </tag>
+            
+            <tag> 文章 </tag>
             
         </tags>
       
@@ -264,11 +264,11 @@
       
         <tags>
             
+            <tag> Hello World </tag>
+            
             <tag> hexo </tag>
             
             <tag> 博客 </tag>
-            
-            <tag> Hello World </tag>
             
         </tags>
       
