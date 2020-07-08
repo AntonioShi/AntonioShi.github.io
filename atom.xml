@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>星尘的博客</title>
   
-  <subtitle>考研 python 数据分析 随思</subtitle>
+  <subtitle>生活 学习 工作 思考</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.antonio.net.cn/"/>
@@ -10,7 +10,7 @@
   <id>https://www.antonio.net.cn/</id>
   
   <author>
-    <name>star dust</name>
+    <name>星尘</name>
     
   </author>
   
@@ -267,11 +267,11 @@
     </summary>
     
     
-      <category term="Hello World" scheme="https://www.antonio.net.cn/tags/Hello-World/"/>
-    
       <category term="hexo" scheme="https://www.antonio.net.cn/tags/hexo/"/>
     
       <category term="博客" scheme="https://www.antonio.net.cn/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+      <category term="Hello World" scheme="https://www.antonio.net.cn/tags/Hello-World/"/>
     
   </entry>
   
